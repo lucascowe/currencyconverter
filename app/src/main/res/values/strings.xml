@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">currency converter</string>
+    <string name="aus">AUS</string>
+    <string name="can">CAN</string>
+    <string name="usa">USA</string>
+    <string name="convert">Convert</string>
+    <string name="eng">ENG</string>
+    <string name="_1">1</string>
+    <string name="todo">TODO</string>
+    <string name="howmuch">How much to change?</string>
+</resources>
