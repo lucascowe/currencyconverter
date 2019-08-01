@@ -18,22 +18,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radGrp" />
 
-    <EditText
-        android:id="@+id/youMoneyEditText"
-        android:layout_width="103dp"
-        android:layout_height="38dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:text="@string/_1"
-        android:textColor="#00FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/mainImageView"
-        app:layout_constraintEnd_toEndOf="@+id/mainImageView"
-        app:layout_constraintStart_toStartOf="@+id/mainImageView"
-        app:layout_constraintTop_toTopOf="@+id/mainImageView" />
-
     <Button
         android:id="@+id/convertBnt"
         android:layout_width="wrap_content"
@@ -43,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
-        android:onClick="changeCurrency"
+        android:onClick="onClick"
         android:text="@string/convert"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
@@ -147,7 +131,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:onClick="changeCurrency"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -178,6 +162,18 @@
 
 
     </RadioGroup>
+
+    <EditText
+        android:id="@+id/youMoneyEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radGrp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
